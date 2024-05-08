@@ -1,5 +1,5 @@
 function post (){
-  const form = document.getElementById("form");
+  const form = document.getElementById("form"); 
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     const formData = new FormData(form);
@@ -8,6 +8,6 @@ function post (){
     XHR.responseType = "json";
     XHR.send(formData);
   });
-};
-
-window.addEventListener('turbo:load', post);
+ };
+ 
+ window.addEventListener('turbo:load', post);
