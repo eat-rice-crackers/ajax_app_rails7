@@ -74,5 +74,5 @@ end
 gem 'pry-rails'
 
 group :production do
-  gem 'pm'
+  gem 'pg'
 end
